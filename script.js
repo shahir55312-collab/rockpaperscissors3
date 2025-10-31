@@ -38,7 +38,7 @@ if(event.key === 'r'){
 else if(event.key === 'p'){
     playGame('paper');
 }
-else if(event.body === 's'){
+else if(event.key === 's'){
     playGame('scissors')
 }
 
@@ -125,3 +125,4 @@ const randomNumber = Math.random();
     }
     return computerMove;
 }
+
